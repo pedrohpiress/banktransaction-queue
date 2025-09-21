@@ -238,16 +238,6 @@ curl -u admin:123 http://localhost:15672/api/overview
 * Confirme que WebSocket conecta (deve mostrar "Conectado")
 * Teste enviar transação e observe logs do Node.js
 
-## 📊 Features da Interface Web
-
-* Tempo Real: Transações aparecem instantaneamente
-* Formatação: Valores em Real brasileiro (R\$)
-* Animações: Destaque para novas transações
-* Histórico: Últimas 100 transações
-* Status: Conexão RabbitMQ e estatísticas
-* Limpar: Botão para limpar todas as transações
-* Responsivo: Funciona em desktop e mobile
-
 ## 🔧 Configurações Importantes
 
 ### **Portas utilizadas:**
@@ -265,14 +255,3 @@ curl -u admin:123 http://localhost:15672/api/overview
 
 * Exchange: banco.exchange
 * Queue: transacao.queue
-
-## 📝 Próximos Passos
-
-Possíveis melhorias:
-
-* Gráficos e dashboards
-* Filtros por tipo/cliente
-* Persistência em banco (opcional)
-* Autenticação
-* App mobile
-* Deploy em produção
